@@ -18,7 +18,7 @@ public class LogServiceConsumer
 	{
 		logService.log(LogService.LOG_INFO, "bind logService");
 
-		thread = new LoggingThread(logService, "lggingthread started from DS", 2);
+		thread = new LoggingThread(logService, "loggingthread started from DS", 2);
 		thread.start();
 	}
 
